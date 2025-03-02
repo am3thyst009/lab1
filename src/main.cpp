@@ -4,10 +4,10 @@ int add(int a, int b);
 int subtract(int a, int b);
 
 int main() {
-    int a = 10, b = 5;
+    int a = 7, b = 13;
 
-    std::cout << add(a, b) << std::endl;
-    std::cout << subtract(a, b) << std::endl;
+    std::cout << "сложение:" << add(a, b) << std::endl;
+    std::cout << "вычитание:" << subtract(a, b) << std::endl;
 
     return 0;
 }
